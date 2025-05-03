@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { BsMenuButtonWide } from 'react-icons/bs';
 import { Link, useLocation } from 'react-router-dom';
-import SlideBar from './SlideBar';
+import SlideBar from '../Components/SlideBar';
 
 const navLinks = [
   { label: 'Home', to: '/' },
