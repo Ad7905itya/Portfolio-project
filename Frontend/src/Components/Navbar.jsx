@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { createPortal } from 'react-dom';
 import { BsMenuButtonWide } from 'react-icons/bs';
 import { Link, useLocation } from 'react-router-dom';
-import Modal from './Modal';
+import SlideBar from './SlideBar';
 
 const navLinks = [
   { label: 'Home', to: '/' },
@@ -50,7 +50,7 @@ const Navbar = () => {
 
       {/* Modal Nav for Mobile */}
       {createPortal(
-        <Modal isOpen={isOpen} setIsOpen={setIsOpen} />,
+        <SlideBar isOpen={isOpen} setIsOpen={setIsOpen} />,
         document.getElementById('portal')
       )}
     </header>

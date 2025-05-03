@@ -1,0 +1,4 @@
+node_Modules
+package-lock.json
+dist
+.env

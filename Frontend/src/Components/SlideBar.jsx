@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoMdClose } from 'react-icons/io';
 
-const Modal = ({ isOpen, setIsOpen }) => {
+const SlideBar = ({ isOpen, setIsOpen }) => {
   if (!isOpen) return null;
 
   const navItems = [
@@ -44,4 +44,4 @@ const Modal = ({ isOpen, setIsOpen }) => {
   );
 };
 
-export default Modal;
+export default SlideBar;
