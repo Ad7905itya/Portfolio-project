@@ -92,7 +92,7 @@ export const handleSubmit = async (
   setLoading(true);
 
   try {
-    const response = await fetch("http://localhost:5000/send-OTP", {
+    const response = await fetch("https://portfolio-project-rues.onrender.com/send-OTP", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

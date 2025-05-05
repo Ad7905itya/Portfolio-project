@@ -16,7 +16,7 @@ export const handleVerify = async (
   setIsError("");
 
   try {
-    const response1 = await fetch("http://localhost:5000/verify-OTP", {
+    const response1 = await fetch("https://portfolio-project-rues.onrender.com/verify-OTP", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -35,7 +35,7 @@ export const handleVerify = async (
 
     
     setEmailVerified(true);
-    const response2 = await fetch("http://localhost:5000/send-message", {
+    const response2 = await fetch("https://portfolio-project-rues.onrender.com/send-message", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
