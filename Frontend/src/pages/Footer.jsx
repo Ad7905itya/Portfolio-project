@@ -3,7 +3,7 @@ import { BsFacebook, BsInstagram, BsTelegram } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div className='flex flex-col items-center bg-gray-900 p-4 border-cyan-200 border-t-2 w-full max-w-[1550px]'>
+        <div className='flex flex-col items-center bg-gray-900 mx-auto p-4 border-cyan-200 border-t-2 w-full max-w-[1550px]'>
             <a
                 className='mb-2 font-medium text-white hover:text-cyan-300 text-sm'
                 target='_blank'

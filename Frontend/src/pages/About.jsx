@@ -7,7 +7,7 @@ const About = () => {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, ease: 'easeOut' }}
-        viewport={{ once: true }} className='flex md:flex-row flex-col m-auto w-full max-w-[1550px] min-h-screen'>
+        viewport={{ once: true }} className='flex md:flex-row flex-col m-auto py-8 w-full max-w-[1550px] min-h-screen'>
 
             {/* Image Section */}
             <div className='flex justify-center items-center p-6 w-full md:w-[40%] h-screen'>
